@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000; // Corrected the PORT fallback
 
 app.get('/', (req, res) => { // Fixed the route and arrow function syntax
-  res.send('Hello from DevOps Assignment!');
+  res.send('Hello from swarup!');
 });
 
 app.listen(PORT, () => { // Corrected the arrow function syntax
